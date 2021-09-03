@@ -1,0 +1,328 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 5%;
+  font-size: 3rem;
+}
+h3 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+hr {
+  border-color: #dddddd;
+  border-style: dotted;
+  border-bottom-style: none;
+  border-top-width: 5px;
+  width: 10%;
+  margin: 10% auto;
+}
+
+#topBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+.navbar-brand {
+  font-family: "Acme", sans-serif;
+}
+#navbarSupportedContent {
+  height: 0;
+}
+.navbar {
+  height: 70px;
+}
+
+.navbtn {
+  margin: 10px;
+}
+
+.ss {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 500;
+  height: 2;
+  margin: 0 0 0;
+  padding: 0 0 2px 0;
+}
+
+.blocks {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+}
+
+.aimg {
+  width: 35%;
+  margin: 0 5%;
+}
+
+.img1 {
+  float: left;
+}
+
+.img2 {
+  float: right;
+}
+.img3 {
+  width: 30%;
+  float: left;
+}
+.about-us {
+  width: 60%;
+  margin: 50px auto 50px auto;
+  text-align: justify;
+  padding: 2%;
+}
+.top-container {
+  background-color: #eeeeee;
+  padding: 5%;
+  position: relative;
+}
+
+.req-container {
+  background-color: #686d76;
+  color: #eeeeee;
+  padding: 3%;
+}
+.reqheading {
+  color: white;
+  padding-bottom: 0%;
+}
+
+.list-group-item {
+  background-color: #686d76;
+  color: white;
+  border: 0;
+}
+ul,
+ol {
+  text-align: left;
+  display: table;
+  margin: 2% auto;
+  padding: 5%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.entry-container {
+  background-color: #373a40;
+  padding: 5%;
+  color: #eeeeee;
+}
+
+.buttonbtn {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 7% 0 7% 0;
+  position: static;
+}
+.buttonbtn1 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 2% 0 7% 0;
+  position: static;
+}
+.footer {
+  padding: 5%;
+  background-color: #eeeeee;
+  color: black;
+}
+.footerH {
+  background-color: grey;
+  color: white;
+  margin-bottom: 0;
+}
+.fimg {
+  width: 15%;
+}
+@media only screen and (max-width: 700px) {
+  .about-us {
+    text-align: center;
+    width: 100%;
+  }
+  .blocks {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .img1,
+  .img2,
+  .img3 {
+    float: none;
+    margin: 5% 35% 15%;
+    width: 35%;
+  }
+  .img1,
+  .img2 {
+    width: 45%;
+    margin: 5% 0 15% 0;
+  }
+
+  .fimg {
+    width: 40%;
+  }
+  .top-container {
+    padding: 10%;
+  }
+  .list-grouplist {
+    margin-left: auto;
+  }
+
+  .reqheading {
+    padding-top: 20%;
+  }
+  .entryprocess {
+    padding-top: 20%;
+  }
+  .clashforever {
+    padding-top: 20%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #navbarSupportedContent {
+    padding: 0 0 0 35%;
+    height: 0;
+  }
+
+  .about-us {
+    text-align: center;
+  }
+}
+
+/* manual.html */
+
+.quicklinks {
+  background-color: #d9e4dd;
+  padding-bottom: 10px;
+  line-height: 2.5;
+}
+.manualtext {
+  line-height: 2.5;
+}
+.top3 {
+  background-color: #fbf7f0;
+  padding: 5%;
+}
+.recognization {
+  background-color: #cdc9c3;
+  padding: 5%;
+}
+.offclan {
+  width: 100%;
+  padding-bottom: 5%;
+}
+.responsibile {
+  background-color: #fbf7f0;
+  padding: 5%;
+}
+.manualhr {
+  border-color: black;
+  border-style: dotted;
+  border-bottom-style: none;
+  border-top-width: 5px;
+  width: 10%;
+  margin: 10% auto;
+}
+
+.synctime {
+  background-color: #cdc9c3;
+  padding: 5%;
+}
+
+@media only screen and (min-width: 600px) {
+  .offclan {
+    width: 60%;
+  }
+}
+
+.match {
+  background-color: #fbf7f0;
+  padding: 5%;
+}
+.mlinks {
+  background-color: #555555;
+  padding: 10%;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.mbtn {
+  margin: 5% 3% 0 0;
+}
+
+/* staffs.html */
+
+.supremeheads {
+  padding: 10% 0;
+  background-color: #bbbbbb;
+}
+.headadmins {
+  background-color: #495464;
+  padding: 10% 0;
+  color: white;
+}
+
+.img1 {
+  padding: 3%;
+  position: relative;
+}
+.staffimg {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.sname {
+  padding: 15% 0 5% 0;
+}
+
+.depthead {
+  padding: 10% 0;
+  background-color: #bbbbbb;
+}
+.entryadmin {
+  background-color: #495464;
+  padding: 10% 0;
+  color: white;
+}
+
+.auditadmin {
+  padding: 10% 0;
+  background-color: #aaaaaa;
+}
+
+@media only screen and (min-width: 600px) {
+  .staffimg {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-family: "Josefin Sans", sans-serif;
+    padding: 5%;
+    font-size: 2rem;
+  }
+}
